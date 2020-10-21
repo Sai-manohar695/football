@@ -4,22 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" hrek="./style.css"
+    <link rel="stylesheet" href="./style.css"
 </head>
 <body>
-<img src="./assets/real.png"  >
-<ul>0</ul>
-<ul>1</ul>
-<ul>1</ul>
-<ul>1</ul>
-<ul>0</ul>
-<ul>3-3</ul>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <img class="profile" src="./assets/real.png" alt="Real Madrid" height="150px" width="150px">
+        <span class="name" id="team-name-1">Real Madrid</span>
+        <div class="row kick-out" id="team-round-1">
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+            <span class="col">-</span>
+        </div>
+        </div>
 
-<img src="./assets/sd.png">
-<ul>1</ul>
-<ul>1</ul>
-<ul>1</ul>
-<ul>0</ul>
-<ul>0</ul>
+        <div class="col">
+            <div class="row score">
+                <span id="team-score-1">0</span>
+                <span>-</span>
+                <span id="team-score-2">0</span>
+            </div>
+        </div> 
+        <div class="col">
+            <img class="profile" src="./assets/sd.png" alt="Huesca" height="150px" width="150px">
+            <span class="name" id="team-name-2">Huesca</span>
+            <div class="row kick-out" id="team-round-2">
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+                <span class="col">-</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <button id="Try-again">Try again</button>
+           <button id="Huesca-strike">Huesca  strike</button>
+    </div>
+   </div>
 </body>
 </html>
